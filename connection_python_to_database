@@ -1,0 +1,30 @@
+# connect with database from python insert values#
+
+
+
+config.py----  file 1 
+host='localhost'
+port=3306
+user='root'
+password='root'
+database='cott'
+
+
+
+
+main.py ------ file 2
+import pymysql
+import config
+
+conn=pymysql.connect(host=config.host,
+port=config.port,
+user=config.user,
+password=config.password,
+database=config.database)
+
+cursor=conn.cursor()
+
+cursor.execute("insert into t1 values (90,'hfgght','bhankheda')")
+
+conn.commit()
+
