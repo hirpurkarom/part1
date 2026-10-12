@@ -1,0 +1,16 @@
+EmployeeID,Name,Age,Gender,Department,JobRole,Salary,City,Experience,JoiningDate
+101,John,25,Male,IT,Developer,45000,Pune,2,2024-06-10
+102,Priya,28,Female,HR,HR Executive,42000,Mumbai,4,2022-03-15
+103,Rahul,30,Male,Finance,Accountant,55000,Delhi,6,2020-01-20
+104,Neha,24,Female,IT,Tester,38000,Pune,1,2025-02-12
+105,Amit,32,Male,Sales,Sales Executive,48000,Nashik,7,2019-08-05
+106,Sneha,27,Female,IT,Developer,52000,Bangalore,4,2022-11-18
+107,Rohan,29,Male,Marketing,Marketing Executive,46000,Mumbai,5,2021-07-25
+108,Pooja,26,Female,Finance,Analyst,50000,Pune,3,2023-04-10
+109,Vikas,35,Male,IT,Manager,75000,Hyderabad,10,2016-09-01
+110,Anjali,31,Female,HR,HR Manager,68000,Delhi,8,2018-05-14
+111,Karan,23,Male,Sales,Sales Executive,35000,Pune,1,2025-06-20
+112,Simran,29,Female,IT,Developer,58000,Bangalore,5,2021-12-05
+113,Arjun,34,Male,Finance,Finance Manager,72000,Mumbai,9,2017-03-22
+114,Meera,25,Female,Marketing,Content Writer,40000,Nashik,2,2024-01-15
+115,Akash,27,Male,IT,Support Engineer,43000,Pune,3,2023-09-10
