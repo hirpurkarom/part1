@@ -1,0 +1,34 @@
+# in our folder multiple city  is in csv.file is there okay i want all city csv write in City.csv#
+
+
+import csv
+import os
+
+
+
+def read(filename):
+
+        data=[]
+        for element in os.listdir("C:\\Users\\User\\PycharmProjects\\p5"):
+            if element.endswith(".csv"):
+                with open(os.path.join(filename, element)) as fp:
+                    r = csv.DictReader(fp)
+                    data.extend(list(r))
+
+        return data
+
+def write(r):
+    with open("City.csv",'w',newline='')as fp:
+        fn=r[0].keys()
+        ww= csv.DictWriter(fp,fieldnames=fn)
+        ww.writeheader()
+        ww.writerows(r)
+
+def main():
+    filename='C:\\Users\\User\\PycharmProjects\\p5'
+    r=read(filename)
+    write(r)
+
+
+if __name__=='__main__':
+    main()
